@@ -1,8 +1,11 @@
 import Card from "./components/Card";
 import Cart from "./components/Cart";
 import Greeting from "./components/Greeting";
+import IconComponent from "./components/IconComponent";
 import Person from "./components/Person";
 import Product from "./components/Product";
+import ProfileCard from "./components/ProfileCard";
+import StyledCard from "./components/StyledCard";
 import UserStatus from "./components/UserStatus";
 import Weather from "./components/Weather";
 
@@ -32,6 +35,11 @@ function App() {
       <UserStatus loggedIn={false} isAdmin={false} />
       <br />
       <Greeting timeOfDay={"afternoon"} />
+      <br />
+      <StyledCard />
+      <br />
+      <ProfileCard />
+      <IconComponent />
     </div>
   );
 }
