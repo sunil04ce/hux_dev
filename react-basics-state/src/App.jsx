@@ -9,6 +9,7 @@ import Counter from "./components/Counter";
 import TodoList from "./components/TodoList";
 import Profile from "./components/Profile";
 import ShoppingList from "./components/ShoppingList";
+import CopyInput from "./components/CopyInput";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -31,6 +32,8 @@ function App() {
       <Profile />
       <br />
       <ShoppingList />
+      <br />
+      <CopyInput />
     </section>
   );
 }
